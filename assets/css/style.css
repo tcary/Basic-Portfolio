@@ -93,9 +93,7 @@ footer {
     margin-right: 800px;
     text-align: left;
 }
-label [for="name"] {
-    text-align: left;
-}
+
 #msg {
     width: 500px;
     height: 200px;
@@ -106,16 +104,18 @@ button {
     margin-top: 50px;
 }
 /* portfolio css */
-/* .chill {
-    height: 800px;
-} */
-
-
-/* .pic {
-    height: 100px;
+label [for="name"] {
+    text-align: left;
+    background: #4aaaa5;
+}
+label [for="box"] {
+    position: absolute;
+    left: 300px;
+    top: 200px;
+    height: 200px;
     width: 100px;
-    
-} */
+}
+
  #foot {
     margin: 402px 0 0; 
     background: #666666
@@ -125,27 +125,115 @@ button {
     border-top-color: #4aaaa5;
 } 
 .box-1 {
-    top: 260px;
-    left: 123px;
+    top: 25px;
+    left: 0px;
     position: absolute;
 }
 .box-2 {
-    top: 550px;
-    left: 123px;
+    top: 25px;
+    left: 40px;
     position: absolute;
 }
 .box-3 {
-    top: 550px;
-    right: 740px;
+    top: 300px;
+    right: 313px;
     position: absolute;
 }
 .box-4 {
-    top: 850px;
-    left: 123px;
+    top: 282px;
+    left: 0px;
     position: absolute;
 }
 .box-5 {
-    top: 260px;
-    right: 740px;
+    top: 540px;
+    left: -253px;
     position: absolute;
+}
+#wrapper {
+    position: relative;
+    display: inline-block;
+    width: 250px;
+}
+#wrapper p {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    border: 1px solid;
+    width: 150px;
+    color: #ffffff;
+    background: #4aaaa5;
+    margin: 5px;
+    text-align: center;
+}
+#wrapper #a {
+    position: absolute;
+    z-index: 999;
+    left: -18px;
+    right: 0;
+    top: 164px;
+    padding: 8px;
+    border: 1px solid;
+    width: 54%;
+    color: #ffffff;
+    background: #4aaaa5;
+    margin: 0 auto;
+    text-align: center;
+}
+#wrapper #b {
+    position: absolute;
+    z-index: 999;
+    left: -1116px;
+    right: 0;
+    top: 436px;
+    padding: 8px;
+    border: 1px solid;
+    width: 53%;
+    color: #ffffff;
+    background: #4aaaa5;
+    margin: 0 auto;
+    text-align: center;
+}
+#wrapper #c {
+    position: absolute;
+    z-index: 999;
+    left: 294px;
+    right: 0;
+    top: 405px;
+    padding: 8px;
+    border: 1px solid;
+    width: 54%;
+    color: #ffffff;
+    background: #4aaaa5;
+    margin: 0 auto;
+    text-align: center;
+}
+#wrapper #d {
+    position: absolute;
+    z-index: 999;
+    left: -606px;
+    right: 0;
+    top: 657px;
+    padding: 8px;
+    border: 1px solid;
+    width: 54%;
+    color: #ffffff;
+    background: #4aaaa5;
+    margin: 0 auto;
+    text-align: center;
+}
+#wrapper #e {
+    position: absolute;
+    z-index: 999;
+    left: -98px;
+    right: 0;
+    top: 164px;
+    padding: 8px;
+    border: 1px solid;
+    width: 54%;
+    color: #ffffff;
+    background: #4aaaa5;
+    margin: 0 auto;
+    text-align: center;
 }
